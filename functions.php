@@ -1,6 +1,14 @@
 <?php
 
 
+#region Load text domain
+function edg_load_text_domain() {
+	load_child_theme_textdomain( 'edg-translations', get_stylesheet_directory() . '/lang' );
+}
+add_action( 'after_setup_theme', 'edg_load_text_domain' );
+#endregion Load text domain
+
+
 #region Enqueue scripts
 #region General
 function edg_enqueue_scripts() {
