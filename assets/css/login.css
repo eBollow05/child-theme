@@ -1,1 +1,56 @@
+:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
 
+html {
+	height: auto !important;
+}
+
+body {
+	background-color: #f7f7f7 !important;
+}
+
+#backtoblog,
+.privacy-policy-page-link,
+.pw-weak {
+	display: none !important;
+}
+
+h1 a {
+	background-image: url("https://wp-rocket.me/wp-content/themes/V4/assets/images/logo/wp-rocket-dark.svg") !important;
+	background-size: contain !important;
+	width: 100% !important;
+	height: 70px !important;
+	margin: 0 auto 50px !important;
+}
+
+#nav {
+	margin-top: 30px !important;
+	text-align: center !important;
+}
+
+form:not(#language-switcher) {
+	padding: 50px !important;
+	border: none !important;
+	border-radius: 10px !important;
+	box-shadow: 0 2px 4px 0 rgb(148 163 184 / .25) !important;
+}
+
+#login {
+	max-width: 500px !important;
+	width: 100% !important;
+	padding: 80px 20px 50px !important;
+}
+
+.message,
+#login_error {
+	padding: 30px !important;
+	border-radius: 0 10px 10px 0 !important;
+	border-left-color: #007cba !important;
+	box-shadow: 0 2px 4px 0 rgb(148 163 184 / .25) !important;
+}
+
+#login_error {
+	border-left-color: #f65f5f !important;
+}
