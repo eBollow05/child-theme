@@ -8,7 +8,7 @@ function edg_enqueue_scripts() {
 	wp_enqueue_style( 'edg-child-main' );
 
 	wp_register_script( 'edg-child-main', get_stylesheet_directory_uri() . '/assets/js/main.js', [], false, true );
-	wp_localize_script( 'edg-child', 'edgData', [
+	wp_localize_script( 'edg-child-main', 'edgData', [
 		'ajaxUrl' => admin_url( 'admin-ajax.php' ),
 		'currPostId' => get_the_ID(),
 		'currPostUrl' => get_permalink()
