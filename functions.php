@@ -19,7 +19,7 @@ function edg_enqueue_scripts() {
 	wp_localize_script( 'edg-child-main', 'edgData', [
 		'ajaxUrl' => admin_url( 'admin-ajax.php' ),
 		'currPostId' => get_the_ID(),
-		'currPostUrl' => get_permalink()
+		'currPostUrl' => wp_get_shortlink()
 	] );
 	wp_enqueue_script( 'edg-child-main' );
 }
