@@ -1,6 +1,6 @@
 # Child Theme
 
-## What's a child theme and why do I need one?
+## What's a Child Theme and Why Do I Need One?
 
 Basically, a child theme is a theme that inherits the functionality and styling of the parent theme.
 
@@ -8,4 +8,10 @@ Creating a child theme allows you to modify the parent theme without losing your
 
 Overall, it is recommended to use a child theme if you want to add even any custom functionality to your website.
 
-## 
+## How Can I Create a Child Theme
+
+1. Create a folder under `/wp-content/themes/` called like your new theme, for example: `edg-child` (only ASCII lowercase letters, use hyphens instead of spaces)
+2. Create a `style.css` file with the [header comment](https://github.com/eBollow05/child-theme/blob/main/style.css) at the very top.
+The following information is required:
+- `Theme Name` - 
+- `Template` - 
