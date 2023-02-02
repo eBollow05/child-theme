@@ -17,4 +17,11 @@ The following information is required:
 - `Template` - The name of the parent theme directory, for example: `hello-elementor`
 3. Create a `functions.php` file and [enqueue](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) the `style.css` stylesheet
 
-## 
+## How Can I Include JavaScript Files in My Child Theme
+
+
+
+## How Can I Translate Strings From PHP Files
+
+
+## How Can I Load Dynamic PHP Variables Into My JavaScript
