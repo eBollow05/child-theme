@@ -23,9 +23,9 @@ The following information is required:
 
 
 
-## How Can I Translate Strings in My PHP Files?
-
-
-
 ## How Can I Load Dynamic PHP Variables Into My JavaScript Files?
+
+
+
+## How Can I Translate Strings in My PHP Files?
 
