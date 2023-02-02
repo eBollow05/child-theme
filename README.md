@@ -16,3 +16,5 @@ The following information is required:
 - `Theme Name` - Needs to be unique to your theme, for example: `edgChild`
 - `Template` - The name of the parent theme directory, for example: `hello-elementor`
 3. Create a `functions.php` file and [enqueue](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) the `style.css` stylesheet
+
+## 
