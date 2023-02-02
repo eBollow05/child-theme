@@ -8,7 +8,7 @@ Creating a child theme allows you to modify the parent theme without losing your
 
 Overall, it is recommended to use a child theme if you want to add any custom functionality to your website.
 
-## How Can I Create a Child Theme
+## How Can I Create a Child Theme?
 
 1. Create a folder under `/wp-content/themes/` called like your new theme, for example: `edg-child` (only ASCII lowercase letters, use hyphens instead of spaces)
 2. Create a `style.css` file in that folder with the [header comment](https://github.com/eBollow05/child-theme/blob/main/style.css) at the very top.
@@ -19,11 +19,13 @@ The following information is required:
 4. To create a thumbnail for your child theme, which you can see in the backend, upload an image called `screenshot.${FILE_EXTENSION}` in that folder where `${FILE_EXTENSION}` represents any image type (I recommend `webp`). The ideal dimensions are `1200x900`
 5. Open `yourdomain.com/wp-admin/themes.php` and activate your theme
 
-## How Can I Include JavaScript Files in My Child Theme
+## How Can I Include JavaScript Files in My Child Theme?
 
 
 
-## How Can I Translate Strings From PHP Files
+## How Can I Translate Strings in My PHP Files?
 
 
-## How Can I Load Dynamic PHP Variables Into My JavaScript
+
+## How Can I Load Dynamic PHP Variables Into My JavaScript Files?
+
