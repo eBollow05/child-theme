@@ -29,3 +29,8 @@ The following information is required:
 
 ## How Can I Translate Strings in My PHP Files?
 
+- [__()](https://developer.wordpress.org/reference/functions/__/)
+- [_n()](https://developer.wordpress.org/reference/functions/_n/)
+- [sprintf()](https://www.php.net/manual/en/function.sprintf.php)
+- [Locale codes](https://make.wordpress.org/polyglots/teams/)
+- [Poedit](https://poedit.net/)
