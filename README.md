@@ -29,14 +29,14 @@ The following information is required:
 
 ## How Can I Translate Strings in My PHP Files?
 
-1. Assign a [text domain](https://github.com/eBollow05/child-theme/blob/main/style.css#L7) to your child theme in your `style.css` header] (only ASCII lowercase letters, use hyphens instead of spaces)
+1. Assign a [text domain](https://github.com/eBollow05/child-theme/blob/main/style.css#L7) to your child theme in your `style.css` header (only ASCII lowercase letters, use hyphens instead of spaces)
+2. [Load](https://github.com/eBollow05/child-theme/blob/main/functions.php#L4-L9) your theme's text domain into the `functions.php` file
 The text domain is a unique identifier, allowing WordPress to distinguish between all of the loaded translations.
-2. Create a folder in your child theme, for example: `lang`
-3. Create a `.pot` file in that folder, for example: `template.pot` ([visit file](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot))
-
+3. Create a folder in your child theme, for example: `lang`
+4. Create a `.pot` file in that folder, for example: `template.pot` ([visit file](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot))
+5. Change the default language for the strings in this file, for example: `de_DE` ([Locale codes](https://make.wordpress.org/polyglots/teams/))
 
 - [__()](https://developer.wordpress.org/reference/functions/__/)
 - [_n()](https://developer.wordpress.org/reference/functions/_n/)
 - [sprintf()](https://www.php.net/manual/en/function.sprintf.php)
-- [Locale codes](https://make.wordpress.org/polyglots/teams/)
 - [Poedit](https://poedit.net/)
