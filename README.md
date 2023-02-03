@@ -40,7 +40,8 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 7. Open your `.pot` file with [Poedit](https://poedit.net)
 8. Click at the very bottom on "Create new translation" and choose a [locale code](https://make.wordpress.org/polyglots/teams/) to tell the system in which language the new translation file should be in
 9. Now translate each string in the specified language and save the file as `${LOCALE_CODE}.po`, where `${LOCALE_CODE}` represents the specified language code
-10. After saving the `.po` file, Poedit automatically creates a corresponding `.mo` file (binary data, compressed and optimized for computer use). Now upload the `.pot`, `.po` and `.mo` file into the `lang` folder of your child theme.
+10. Repeat this procedure for all other desired languages
+11. After saving the `.po` file, Poedit automatically creates a corresponding `.mo` file (binary data, compressed and optimized for computer use). Now upload the `.pot`, `.po` and `.mo` file into the `lang` folder of your child theme.
 
 
 - [__()](https://developer.wordpress.org/reference/functions/__/)
