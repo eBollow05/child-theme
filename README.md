@@ -39,7 +39,7 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 6. [Add all strings](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot#L14) beside `msgid` in the default language, in our case: `de_DE` into this file, which should be translated
 7. Open your `.pot` file with [Poedit](https://poedit.net)
 8. Click at the very bottom on "Create new translation" and choose a [locale code](https://make.wordpress.org/polyglots/teams/) to tell the system in which language the new translation file should be in
-9. Now translate each string in the specified language and save the file as `${LOCALE_CODE}.po`, where `${LOCALE_CODE} represents the specified language code
+9. Now translate each string in the specified language and save the file as `${LOCALE_CODE}.po`, where `${LOCALE_CODE}` represents the specified language code
 10. After saving the `.po` file, Poedit automatically creates a corresponding `.mo` file. This is a binary data file, compressed and optimized for computer use. Now upload the .`pot`, .`po` and `.mo` file into the `lang` folder of your child theme.
 
 
