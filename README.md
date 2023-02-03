@@ -37,8 +37,9 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 4. Create a `.pot` file in that folder, for example: `template.pot` ([visit file](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot))
 5. Change the default language for the strings in this file, for example: `de_DE` ([Locale codes](https://make.wordpress.org/polyglots/teams/))
 6. [Add all strings](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot#L14) beside `msgid` in the default language, in our case: `de_DE` into this file, which should be translated
-7. Download [Poedit](https://poedit.net)
-8. Open 
+7. Open your `.pot` file with [Poedit](https://poedit.net)
+8. 
+
 
 - [__()](https://developer.wordpress.org/reference/functions/__/)
 - [_n()](https://developer.wordpress.org/reference/functions/_n/)
