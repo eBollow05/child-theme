@@ -16,7 +16,7 @@ The following information is required:
 - `Theme Name` - Needs to be unique to your theme, for example: `edgChild`
 - `Template` - The name of the parent theme directory, for example: `hello-elementor`
 3. Create a `functions.php` file in that folder and [enqueue](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) the `style.css` stylesheet
-4. To create a thumbnail for your child theme, which you can see in the backend, upload an image called `screenshot.${FILE_EXTENSION}` in that folder where `${FILE_EXTENSION}` represents any image type (I recommend `webp`). The ideal dimensions are `1200x900`
+4. To create a thumbnail for your child theme, which you can see in the backend, upload an image called `screenshot.${FILE_EXTENSION}` in that folder where `${FILE_EXTENSION}` represents any image type (I recommend `webp`). The ideal dimensions are `1200x900` px.
 5. Open `yourdomain.com/wp-admin/themes.php` and activate your theme
 
 ## How Can I Include JavaScript Files in My Child Theme?
