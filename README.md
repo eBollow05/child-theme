@@ -32,7 +32,7 @@ The following information is required:
 
 1. Assign a [text domain](https://github.com/eBollow05/child-theme/blob/main/style.css#L7) to your child theme in your `style.css` header (only ASCII lowercase letters, use hyphens instead of spaces).
 The text domain is a unique identifier, allowing WordPress to distinguish between all of the loaded translations.
-2. [Load](https://github.com/eBollow05/child-theme/blob/main/functions.php#L4-L9) your theme's text domain into the `functions.php` file
+2. [Load your theme's text domain](https://github.com/eBollow05/child-theme/blob/main/functions.php#L4-L9) into the `functions.php` file
 3. Create a folder in your child theme, for example: `lang`
 4. Create a `.pot` file in that folder, for example: `template.pot` ([visit file](https://github.com/eBollow05/child-theme/blob/main/lang/template.pot))
 5. Change the default language for the strings in this file, for example: `de_DE` ([Locale codes](https://make.wordpress.org/polyglots/teams/))
@@ -41,7 +41,8 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 8. Click at the very bottom on "Create new translation" and choose a [locale code](https://make.wordpress.org/polyglots/teams/) to tell the system in which language the new translation file should be in
 9. Now translate each string in the specified language and save the file as `${LOCALE_CODE}.po`, where `${LOCALE_CODE}` represents the specified language code (after saving the `.po` file, Poedit automatically creates a corresponding `.mo` file (binary data - compressed and optimized for computers)
 10. Repeat this procedure for other desired languages
-11. Upload all translation files including the `.pot` one into the `lang` folder of your child theme.
+11. Upload all translation files including the `.pot` one into the `lang` folder of your child theme
+12. 
 
 
 - [__()](https://developer.wordpress.org/reference/functions/__/)
