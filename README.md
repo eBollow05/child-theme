@@ -42,9 +42,10 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 9. Now translate each string in the specified language and save the file as `${LOCALE_CODE}.po`, where `${LOCALE_CODE}` represents the specified language code (after saving the `.po` file, Poedit automatically creates a corresponding `.mo` file (binary data - compressed and optimized for computers)
 10. Repeat this procedure for other desired languages
 11. Upload all translation files including the `.pot` one into the `lang` folder of your child theme
-12. 
 
+---
 
-- [__()](https://developer.wordpress.org/reference/functions/__/)
-- [_n()](https://developer.wordpress.org/reference/functions/_n/)
-- [sprintf()](https://www.php.net/manual/en/function.sprintf.php)
+Additional info:
+- To translate regular strings, use [__()](https://developer.wordpress.org/reference/functions/__/)
+- To deal with plural forms, use [_n()](https://developer.wordpress.org/reference/functions/_n/)
+- To deal with strings containing variables, use [sprintf()](https://www.php.net/manual/en/function.sprintf.php)
