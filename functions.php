@@ -16,12 +16,12 @@ function edg_enqueue_scripts() {
 	wp_enqueue_style( 'edg-child-main' );
 
 	wp_register_script( 'edg-child-main', get_stylesheet_directory_uri() . '/assets/js/main.js', [], false, true );
+	wp_enqueue_script( 'edg-child-main' );
 	wp_localize_script( 'edg-child-main', 'edgData', [
 		'ajaxUrl' => admin_url( 'admin-ajax.php' ),
 		'currPostId' => get_the_ID(),
 		'currPostUrl' => wp_get_shortlink()
 	] );
-	wp_enqueue_script( 'edg-child-main' );
 }
 add_action( 'wp_enqueue_scripts', 'edg_enqueue_scripts', 20 );
 #endregion General
