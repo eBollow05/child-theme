@@ -37,8 +37,10 @@ The following information is required:
 
 ## How Can I Load Dynamic PHP Variables Into My JavaScript Files?
 
-1. Use `wp_localize_script()` for the desired script after registering or enqueueing it (([visit snippet](https://github.com/eBollow05/child-theme/blob/main/functions.php#L20-L24)))
-2. 
+1. Use `wp_localize_script()` for the desired script after registering or enqueueing it ([visit snippet](https://github.com/eBollow05/child-theme/blob/main/functions.php#L20-L28))
+2. This function creates a JavaScript object.
+- To access [this object key](https://github.com/eBollow05/child-theme/blob/main/functions.php#L21) in our JavaScript, we would have to write the following code: `const ajaxUrl = edgData.ajaxUrl;`
+- To access [this object key](https://github.com/eBollow05/child-theme/blob/main/functions.php#L25) in our JavaScript, we would have to write the following code: `const msg = edgData.lang.example1;`
 
 ## How Can I Translate Strings in My PHP Files?
 
