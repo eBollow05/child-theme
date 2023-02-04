@@ -37,7 +37,8 @@ The following information is required:
 
 ## How Can I Load Dynamic PHP Variables Into My JavaScript Files?
 
-
+1. Use `wp_localize_script()` for the desired script after registering or enqueueing it (([visit snippet](https://github.com/eBollow05/child-theme/blob/main/functions.php#L20-L24)))
+2. 
 
 ## How Can I Translate Strings in My PHP Files?
 
