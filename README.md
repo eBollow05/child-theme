@@ -20,9 +20,20 @@ The following information is required:
 5. To create a thumbnail for your child theme, which you can see in the backend, upload an image called `screenshot.${FILE_EXTENSION}` in that folder where `${FILE_EXTENSION}` represents any image type (I recommend `webp`). The ideal dimensions are `1200x900` px.
 6. Open `yourdomain.com/wp-admin/themes.php` and activate your theme
 
-## How Can I Include JavaScript Files in My Child Theme?
+## How Can I Enqueue JavaScript Files?
 
+1. Create the needed JavaScript files in your child theme
+2. [Enqueue them](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) with the corresponding path
 
+## How Can I Enqueue Scripts for the Login Page?
+
+1. Create the needed scripts in your child theme
+2. [Enqueue them](https://github.com/eBollow05/child-theme/blob/main/functions.php#L30-L36) with the corresponding path and the action `login_enqueue_scripts` instead of `wp_enqueue_scripts`
+
+## How Can I Enqueue Scripts for the Admin Area?
+
+1. Create the needed scripts in your child theme
+2. [Enqueue them](https://github.com/eBollow05/child-theme/blob/main/functions.php#L39-L45) with the corresponding path and the action `admin_enqueue_scripts` instead of `wp_enqueue_scripts`
 
 ## How Can I Load Dynamic PHP Variables Into My JavaScript Files?
 
