@@ -60,6 +60,7 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 ---
 
 Additional info:
+
 - To translate regular strings, use [__()](https://developer.wordpress.org/reference/functions/__/)
 - To deal with plural forms, use [_n()](https://developer.wordpress.org/reference/functions/_n/)
 - To deal with strings containing variables, use [sprintf()](https://www.php.net/manual/en/function.sprintf.php)
