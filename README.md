@@ -20,6 +20,11 @@ The following information is required:
 5. To create a thumbnail for your child theme, which you can see in the backend, upload an image called `screenshot.${FILE_EXTENSION}` in that folder where `${FILE_EXTENSION}` represents any image type (I recommend `webp`). The ideal dimensions are `1200x900` px.
 6. Open `yourdomain.com/wp-admin/themes.php` and activate your theme
 
+## How Can I Enqueue CSS Files?
+
+1. Create the needed CSS files in your child theme
+2. [Enqueue them](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) with the corresponding path
+
 ## How Can I Enqueue JavaScript Files?
 
 1. Create the needed JavaScript files in your child theme
