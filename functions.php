@@ -15,6 +15,9 @@ function edg_enqueue_scripts() {
 	wp_register_style( 'edg-child-main', get_stylesheet_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'edg-child-main' );
 
+	wp_register_style( 'edg-child-tinymce', get_stylesheet_directory_uri() . '/assets/css/tinymce-editor.css' );
+	wp_enqueue_style( 'edg-child-tinymce' );
+
 	wp_register_script( 'edg-child-main', get_stylesheet_directory_uri() . '/assets/js/main.js', [], false, true );
 	wp_enqueue_script( 'edg-child-main' );
 	wp_localize_script( 'edg-child-main', 'edgData', [
@@ -29,6 +32,17 @@ function edg_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'edg_enqueue_scripts', 20 );
 #endregion General
+
+
+#region TinyMCE editor
+function edg_enqueue_scripts_tinymce( $settings ) {
+	if ( is_admin() ) return $settings;
+
+	$settings[ 'content_css' ] = get_stylesheet_directory_uri() . '/assets/css/tinymce-editor.css';
+	return $settings;
+}
+add_action( 'tiny_mce_before_init', 'edg_enqueue_scripts_tinymce', 20 );
+#endregion TinyMCE editor
 
 
 #region Login page
