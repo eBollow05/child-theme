@@ -30,6 +30,10 @@ The following information is required:
 1. Create the needed CSS file in your child theme
 2. [Configure it](https://github.com/eBollow05/child-theme/blob/main/functions.php#L37-L45) as the default stylesheet for the TinyMCE editor
 
+Additional info:
+
+In this stylesheet you cannot access your usual variables for selectors that are inside of a TinyMCE editor textbox, since it's inside of an iFrame - therefore there is another context.
+
 ## How Can I Enqueue JavaScript Files?
 
 1. Create the needed JavaScript files in your child theme
