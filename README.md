@@ -25,6 +25,11 @@ The following information is required:
 1. Create the needed CSS files in your child theme
 2. [Enqueue them](https://github.com/eBollow05/child-theme/blob/main/functions.php#L13-L27) with the corresponding path
 
+## How Can I Load CSS Into the TinyMCE Editor Textbox?
+
+1. Create the needed CSS file in your child theme
+2. [Configure it](https://github.com/eBollow05/child-theme/blob/main/functions.php#L37-L45) as the default stylesheet for the TinyMCE editor
+
 ## How Can I Enqueue JavaScript Files?
 
 1. Create the needed JavaScript files in your child theme
