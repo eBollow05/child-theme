@@ -11,7 +11,7 @@
 
 
 /* #region Non-admin mode */
-body:not(.edg-is-admin) #your-profile .pw-weak {
+body:not(.edg-admin) #your-profile .pw-weak {
 	display: none !important;
 }
 /* #endregion Non-admin mode */
