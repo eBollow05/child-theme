@@ -34,7 +34,7 @@ The following information is required:
 
 Additional info:
 
-In this stylesheet you cannot access your usual variables for selectors that are inside of a TinyMCE editor textbox, since it's inside of an iFrame - therefore there is another context.
+In this stylesheet you cannot access your usual variables for selectors that are inside of a TinyMCE editor textbox, since they're inside of an iFrame - therefore there is another context.
 
 ## How Can I Enqueue JavaScript Files?
 
