@@ -62,3 +62,27 @@ function edg_enqueue_scripts_admin() {
 add_action( 'admin_enqueue_scripts', 'edg_enqueue_scripts_admin', 20 );
 #endregion Admin area
 #endregion Enqueue scripts
+
+
+#region Add Favicon
+function edg_add_favicon() {
+	$path = get_stylesheet_directory_uri() . '/favicons/';
+	$file_light_mode = $path . 'light-mode';
+	$file_dark_mode = $path . 'dark-mode';
+	$is_light_mode = '(prefers-color-scheme: light)';
+	$is_dark_mode = '(prefers-color-scheme: dark)';
+
+	echo '
+		<link rel="icon" href="' . $file_light_mode . '.png" media="' . $is_light_mode . '">
+		<link rel="apple-touch-icon" href="' . $file_light_mode . '.png" media="' . $is_light_mode . '">
+		<link rel="icon" href="' . $file_light_mode . '.svg" media="' . $is_light_mode . '">
+		<link rel="apple-touch-icon" href="' . $file_light_mode . '.svg" media="' . $is_light_mode . '">
+
+		<link rel="icon" href="' . $file_dark_mode . '.png" media="' . $is_dark_mode . '">
+		<link rel="apple-touch-icon" href="' . $file_dark_mode . '.png" media="' . $is_dark_mode . '">
+		<link rel="icon" href="' . $file_dark_mode . '.svg" media="' . $is_dark_mode . '">
+		<link rel="apple-touch-icon" href="' . $file_dark_mode . '.svg" media="' . $is_dark_mode . '">
+	';
+}
+add_action( 'wp_head', 'edg_add_favicon', 999999 );
+#endregion Add Favicon
