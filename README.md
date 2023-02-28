@@ -73,6 +73,11 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 10. Repeat this procedure for other desired languages
 11. Upload all translation files including the `.pot` one into the `lang` folder of your child theme
 
+How Can I Display a Dynamic Favicon?
+
+1. Creata a `favicon` folder in your child theme and upload your favicon (light/dark, `PNG`/`SVG`) files
+2. Paste [this snippet](https://github.com/eBollow05/child-theme/blob/main/functions.php#L67-L88) into your `functions.php`
+
 ---
 
 Additional info:
