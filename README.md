@@ -75,7 +75,7 @@ The text domain is a unique identifier, allowing WordPress to distinguish betwee
 
 How Can I Display a Dynamic Favicon?
 
-1. Creata a `favicon` folder in your child theme and upload your favicon (light/dark, `PNG`/`SVG`) files
+1. Creata a `favicon` folder in your child theme and upload your favicon (light/dark, `PNG`/`SVG`) files ([visit folder](https://github.com/eBollow05/child-theme/tree/main/assets/favicons))
 2. Paste [this snippet](https://github.com/eBollow05/child-theme/blob/main/functions.php#L67-L88) into your `functions.php`
 
 ---
